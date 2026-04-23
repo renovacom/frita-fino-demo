@@ -22,7 +22,7 @@ export default function MenuHome({ searchParams }: Props) {
 
   return (
     <>
-      <Header mesa={mesa} onSearch={() => {}} />
+      <Header mesa={mesa} />
 
       {/* Hero com cover do restaurante */}
       <section className="relative h-56 -mb-10 overflow-hidden">
